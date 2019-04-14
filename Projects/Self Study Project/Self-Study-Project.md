@@ -2,7 +2,9 @@
 
 Data visualization is a powerful tool to communicate when done right. It delivers information with both the weight of respected research, and the cut-through clarity of good design. But, unfortunately, there are visualizations that are incomprehensible or meaningless.
 
-# 2. What makes a visualization good?
+# 2. Data Visualization Evaluation framework
+
+**What makes a visualization good?**
 
 We visualize data to enable looking at data differently and to understand it. A data visualization can be good only if it engages the audience but also increase the depth of understanding. To achieve a good data visualization, we need the following things.[Source](https://www.datalabsagency.com/2015/05/21/what-makes-for-great-data-visualization/)
 
@@ -66,11 +68,29 @@ While it has been established that using different colors help people interpret 
 ### 2.4.5. Inconsistent Scales
 We can represent multiple variables in a single data visualization. However, it is always a good practice to represent them on a single scale to avoid confusion.
 
+## Evaluation Framework
+
+|    Metrics                                            	| Description                                                   	|
+|-------------------------------------------------------	|---------------------------------------------------------------	|
+|    Data Analysis –   Pattern                          	| Explore data in a way to allow significant patterns to emerge 	|
+|    Data Analysis - Relationship                       	| Look for correlation between different attributes             	|
+|    Storytelling with data - Communication             	| Visualization should communicate to an audience               	|
+|    Storytelling with   data – Audience Familiarity    	| Terms and concepts used should be familiar to the audience    	|
+|    Visual Clues                                       	| Usage of visual clues to paint a picture about the data       	|
+|    Visual Hierarchy                                   	| Usage of visual hierarchy to represent important information  	|
+|    Avoid Negative Space                               	| Effective representation of data without cluttering           	|
+|    Annotation                                         	| Usage of Annotations to establish credibility                 	|
+| Good Data                                             	| Usage of cleaned data to visualize                            	|
+| Consistent Scales                                  	    | Multiple variables represented on a consistent scale          	|
+| Avoid misrepresentation of data                       	| Correct interpretation of data by the viewers                 	|
+| Choice of data visualization                          	| Right choice of the type of data visualization                	|
+| Avoid too much colors/Information                    	  | Optimal usage of colors and content                          	  |
+
 # 3. Evaluating Data Visualizations
 
 Now, let us evaluate a few data visualizations according to the framework defined above.
 
-## 3.1. Data Visualization 1
+## 3.1. UN Climate Change Conference: The Factions
 
 The following chart is from the UN climate change conference to agree on the steps needed to restrict global warming to about two degrees Celsius by the end of the century, and so reduce the risk of drought and floods. Its member states were divided into four major factions: the influential states, the obstructers, the successful and the weak states. The visualization conveys the Co2 emission rate, GDP value and population of different states on hovering upon the elements. [Source](https://correctiv.org/en/latest-stories/climate-change/2015/12/01/un-climate-change-conference-the-factions)
 
@@ -99,7 +119,7 @@ The following chart is from the UN climate change conference to agree on the ste
 
 The visualization looks cluttered to understand which states are represented. Hovering to each element to understand is very tedious. It would have been better if done in a world map template. Also, the tags (the weak, the successful, the obstructers, the influential) are not clear and could be easily misinterpreted.
 
-## 3.2. Data Visualization 2
+## 3.2. Climate Change Calculator
 The following is the stake of the UN climate change conference.  An effort to cut down on emissions to reduce the global mean temperature has been committed by different states and if that target is met, what could be the climate change in the future years is calculated and represented in the visualization. [Source](https://ig.ft.com/sites/climate-change-calculator/)
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-2.1.png)
@@ -128,7 +148,7 @@ The following is the stake of the UN climate change conference.  An effort to cu
 
 The visualization is very understandable, and the global mean temperature change by 2100 is predicted and conveyed correctly. I personally do not see an area for misinterpretation in this visualization. The effect based on the emission cut down target met for a span of every 10 years is predicted and presented clearly. Overall, I think this visualization conveys the information that it was intended to.
 
-## 3.3. Data Visualization 3
+## 3.3. Increased Climate Risks in Urban Areas
 The following visualization is a relation between fast growing cities and increasing climate risks. Almost all (95%) of cities facing extreme climate risks are in Africa or Asia according to a [report](https://www.maplecroft.com/insights/analysis/84-of-worlds-fastest-growing-cities-face-extreme-climate-change-risks/) by risk analysts.  And it's the faster-growing cities that are most at risk, including megacities like Lagos in Nigeria and Kinshasa in the Democratic Republic of Congo. Some 84 of the world's 100 fastest-growing cities face "extreme" risks from rising temperatures and extreme weather brought on by climate change.[Source](https://www.bbc.com/news/science-environment-46384067)
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-3.png)
@@ -155,7 +175,7 @@ The following visualization is a relation between fast growing cities and increa
 
 The visualization does convey that with higher growth in population has more climate risk. But the y-axis which is growth in population is not clear. Also, the heading says growth 2018 – 2035. But these years are not represented anywhere in the visualization. It also looks cluttered. It says that the circle size represents current population. If that is the case, where is the population growth prediction mentioned in the title. Though this visualization conveys the bigger picture that more the population, more vulnerable the country is for climate risks, it needs a lot of improvement to make the viewers understand details.
 
-## 3.4. Data Visualization 4
+## 3.4. What is warming the word?
 The following set of visualizations depicts that the observed climate change over the years 1880 to 2014. It also gives comparison of the climate change to different factors like sun, volcanoes and finally states that the greenhouse gases are the cause of it. [Source](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.1.png)
@@ -183,9 +203,9 @@ The following set of visualizations depicts that the observed climate change ove
 |    Choice   of Data Visualization                     	|    Good            	|
 
 **Conclusion**
-This set of visualizations – first conveying the change in the climate and then comparing that pattern with different factors convey the story precisely. The representation is also very easily understandable. And we can conclude that it is the greenhouse gases causing the change by just looking at the visualization. So, I think this visualization is analyzed and designed well at the same time conveying the story on point.
+This set of visualizations – first conveying the change in the climate and then comparing that pattern with different factors convey the story precisely. The representation is also very easily understandable. And we can conclude that it is the greenhouse gases causing the change by just looking at the visualization. So, I think this visualization is very well analyzed and designed at the same time conveying the story on point as compared to the other visualizations discussed so far.
 
-## 3.5. Data Visualization 5
+## 3.5. Global mean Temperature with and without Volcanic Eruptions
 The following visualization shows global-mean temperature evolution with and without volcanic eruptions as simulated in the Bethe et al. study. [Source](https://www.climate-lab-book.ac.uk/2017/what-do-future-eruptions-mean-for-climate-projections/)
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-5.png)
