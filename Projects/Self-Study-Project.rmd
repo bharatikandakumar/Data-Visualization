@@ -1,0 +1,78 @@
+# Data Visualization
+
+Data visualization is a powerful tool to communicate when done right. It delivers information with both the weight of respected research, and the cut-through clarity of good design. But, unfortunately, there are visualizations that are incomprehensible or meaningless.
+
+# What makes a visualization good?
+
+We visualize data to enable looking at data differently and to understand it. A data visualization can be good only if it engages the audience but also increase the depth of understanding. To achieve a good data visualization, we need the following things.
+
+## Data Analysis
+Unprocessed data is just numbers. But with proper analysis, it can help discover many new insights. Ideally data analysis is done to find two things
+
+* Patterns
+* Relationships
+
+### Patterns
+
+* It is human nature to see patterns in the world around us like stock market pattern, or weather. We do that to predict what can possibly happen in the future.
+* A good analysis looks for patterns across time, space and between different categories. Exploring the data in this way allows significant patterns to emerge – these patterns tell a story about how the world works or is changing.
+
+### Relationships
+* A ‘relationship’ in data is most often a correlation, in other words, does something go up as another thing goes down?
+* It isn’t until we explore data that we discover what it can tell us.   From there, we need to interpret the story for others.
+
+## Storytelling with data
+
+### Communication
+Data visualization should communicate something to an audience, whether that’s a point of view, a case for change, or simply new information.
+### Audience Familiarity
+To be meaningful to your audience, this information needs to be considered from their point of view.  The terms you use, and concepts you refer to should be familiar to your audience.  An audience of executives will require different information than a general audience.  
+
+> A good data visualization tells a story to the audience, using language and ideas that they understand.
+
+## Design
+When we analyze data, we glean our insights, so there’s no need to explain the significance of the data to ourselves.  But for our audience, you must provide a clear and simple explanation of what the data is about, and that’s where good design comes in.
+
+Good data visualization design ensures that everyone who sees it understands what it represents.  To that end, good visualizations involve best practice design elements:
+
+### Visual Clues
+Great books use words to describe characters, scenes and action.  Similarly, great design uses visual clues to paint a picture about the data.
+Symbols such as the dollar sign, skull and cross-bones and love hearts are all examples of strong visual cues.  Abstract shapes and colors can also be used to indicate qualities such as heat, volume and distance.
+
+### Visual Hierarchy
+Our eyes tend to search for things which stand out.  Good design uses this to its advantage to ensure the most important information is read first.
+Using larger and smaller sizes is one simple way to establish a visual hierarchy, as is applying bold colors to key data while lightening or softening other elements.
+
+### Negative Space
+Clutter is the enemy of readability.
+
+### Annotation
+Annotation can help to contextualize the visualization.  It can tell the audience where and when the data is from, who collected it and how.  This kind of context can both help the audience understand the data and establish its credibility.
+## Avoid bad data visualization
+The following are the five common mistakes that lead to bad data visualization
+
+### Bad Data
+Start with the basics: is your data clean? Use checks at every stage the data goes through collection, sourcing, cleaning, and compiling before it is visualized. Common errors include data duplication, missed data, NA values not marked, and so on.
+
+### Wrong Choice of Data Visualization
+Once our data is ready, we should be careful about what type of visualization we use.
+
+### Misrepresentation of Data
+The biggest crime in data visualization is leading the viewer to a wrong interpretation. The data visualizations we create should be built in a way that it is interpreted right by the viewers.
+
+### Too Much Color or Information
+While it has been established that using different colors help people interpret data visualizations quicker, too much color can confuse the viewer.
+
+### Inconsistent Scales
+We can represent multiple variables in a single data visualization. However, it is always a good practice to represent them on a single scale to avoid confusion.
+
+# Evaluating Data Visualizations
+
+Now, let us evaluate a few data visualizations according to the framework defined above.
+
+## Data Visualization 1
+
+The following chart is from the UN climate change conference to agree on the steps needed to restrict global warming to about two degrees Celsius by the end of the century, and so reduce the risk of drought and floods. Its member states were divided into four major factions: the influential states, the obstructers, the successful and the weak states. The visualization conveys the Co2 emission rate, GDP value and population of different states on hovering upon the elements
+
+**Conclusion**
+The visualization looks cluttered to understand which states are represented. Hovering to each element to understand is very tedious. It would have been better if done in a world map template. Also, the tags (the weak, the successful, the obstructers, the influential) are not clear and could be easily misinterpreted.
