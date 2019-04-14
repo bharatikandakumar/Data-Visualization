@@ -4,7 +4,7 @@ Data visualization is a powerful tool to communicate when done right. It deliver
 
 # 2. What makes a visualization good?
 
-We visualize data to enable looking at data differently and to understand it. A data visualization can be good only if it engages the audience but also increase the depth of understanding. To achieve a good data visualization, we need the following things.
+We visualize data to enable looking at data differently and to understand it. A data visualization can be good only if it engages the audience but also increase the depth of understanding. To achieve a good data visualization, we need the following things.[Source](https://www.datalabsagency.com/2015/05/21/what-makes-for-great-data-visualization/)
 
 ## 2.1. Data Analysis
 Unprocessed data is just numbers. But with proper analysis, it can help discover many new insights. Ideally data analysis is done to find two things
@@ -49,7 +49,7 @@ Clutter is the enemy of readability.
 ### 2.3.4. Annotation
 Annotation can help to contextualize the visualization.  It can tell the audience where and when the data is from, who collected it and how.  This kind of context can both help the audience understand the data and establish its credibility.
 ## 2.4. Avoid bad data visualization
-The following are the five common mistakes that lead to bad data visualization
+The following are the five common mistakes that lead to bad data visualization[Source](https://blog.socialcops.com/academy/resources/common-mistakes-bad-data-visualization/)
 
 ### 2.4.1. Bad Data
 Start with the basics: is your data clean? Use checks at every stage the data goes through collection, sourcing, cleaning, and compiling before it is visualized. Common errors include data duplication, missed data, NA values not marked, and so on.
