@@ -1,0 +1,7 @@
+# 1. Data Visualization
+
+Data visualization is a powerful tool to communicate when done right. It delivers information with both the weight of respected research, and the cut-through clarity of good design. But, unfortunately, there are visualizations that are incomprehensible or meaningless.
+
+# 2. What makes a visualization good?
+
+We visualize data to enable looking at data differently and to understand it. A data visualization can be good only if it engages the audience but also increase the depth of understanding. To achieve a good data visualization, we need the following things.[Source](https://www.datalabsagency.com/2015/05/21/what-makes-for-great-data-visualization/)
