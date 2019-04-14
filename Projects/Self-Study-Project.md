@@ -216,6 +216,7 @@ The study here aims to convey that the while making the climate more variable, v
 
 
 RP checks
+
 | Time               | Phase                                                | Description                                                                |
 | ------------------ | ---------------------------------------------------- | -------------------------------------------------------------------------- |
 | Pre-17th   Century | Early Maps and   Diagrams                            | Data visualization has come a long way. Before the 17th century,<br> data visualization already existed. Though displayed in other formats such as<br>maps, the content is much similar to today’s visualizations, which mostly<br> presented geologic, economic, and medical data. The earliest seeds of<br> visualization arose in geometric diagrams, in tables of the positions of<br> stars and other celestial bodies, and in the making of maps to aid in<br> navigation and exploration. |
