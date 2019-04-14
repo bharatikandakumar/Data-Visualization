@@ -1,7 +1,71 @@
-# 1. Data Visualization
+#Code Snippet for Warming Stripes Visualization - R Script
 
-Data visualization is a powerful tool to communicate when done right. It delivers information with both the weight of respected research, and the cut-through clarity of good design. But, unfortunately, there are visualizations that are incomprehensible or meaningless.
+##-- installing the lubridate and tidyverse libraries
+if(!require("lubridate")) install.packages("lubridate")
+if(!require("tidyverse")) install.packages("tidyverse")
 
-# 2. What makes a visualization good?
+##-- adding libraries needed
+library(tidyverse)
+library(lubridate)
+library(RColorBrewer)
 
-We visualize data to enable looking at data differently and to understand it. A data visualization can be good only if it engages the audience but also increase the depth of understanding. To achieve a good data visualization, we need the following things.[Source](https://www.datalabsagency.com/2015/05/21/what-makes-for-great-data-visualization/)
+##-- importing the annual temperatures of Bangalore from year 1881 to 2019
+climate_bangalore <- read_csv("Bangalore_Climate_Change.csv")
+
+##-- check if data is added correctly
+str(climate_bangalore)
+
+##-- select only the annual temperature and year column
+climate_bangalore_year <- select(climate_bangalore,YEAR,metANN)
+
+##--rename the temperature column
+climate_bangalore_year <- rename(climate_bangalore_year,temperature_annual=metANN)
+
+##-- check missing values 999.9
+summary(climate_bangalore_year)
+
+##-- replacing missing values 999.9 with NA
+climate_bangalore_year <- mutate(climate_bangalore_year,temperature_annual=ifelse(temperature_annual==999.9,NA,temperature_annual))
+
+##-- converting year to date object with format(year month day)
+climate_bangalore_year <- mutate(climate_bangalore_year,date=str_c(YEAR,"01-01",sep="-")%>%ymd())
+
+##-- creating the strips (default theme - theme_minimal)
+theme_warming_strip <- theme_minimal()+
+  theme(axis.text.y = element_blank(),
+        axis.line.y = element_blank(),
+        axis.title = element_blank(),
+        panel.grid.major=element_blank(),
+        legend.title = element_blank(),
+        axis.text.x=element_text(vjust=3),
+        panel.grid.minor=element_blank(),
+        plot.title=element_text(size=14,face="bold")
+  )
+
+##-- adding additonal colors from RColorBrewer (adding blue and red)
+col_strip <- brewer.pal(11,"RdBu")
+
+##-- RColorBrewer information
+brewer.pal.info
+
+##-- creating dummy value for y axis and adjusting the width of the color bar in the legend
+ggplot(climate_bangalore_year, aes(x=date,y=1,fill=temperature_annual))+
+  geom_tile()+
+  scale_x_date(date_breaks = "6 years",
+               date_labels = "%Y",
+               expand=c(0,0))+
+  scale_y_continuous(expand=c(0,0))+
+  scale_fill_gradientn(colors=rev(col_strip))+
+  guides(fill=guide_colorbar(barwidth = 1))+
+  labs(title="Bangalore 1880-2018",
+       caption="Climate Change Analysis")+
+  theme_warming_strip
+
+
+# Visualization
+
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/Warming-Stripes-Bangalore.png)
+
+
+[Data Source](https://data.giss.nasa.gov/cgi-bin/gistemp/stdata_show.cgi?id=207432950000&dt=1&ds=5)
+[Warming Stripes Reference](https://dominicroye.github.io/en/2018/how-to-create-warming-stripes-in-r/)
