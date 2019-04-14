@@ -74,8 +74,8 @@ Now, let us evaluate a few data visualizations according to the framework define
 
 The following chart is from the UN climate change conference to agree on the steps needed to restrict global warming to about two degrees Celsius by the end of the century, and so reduce the risk of drought and floods. Its member states were divided into four major factions: the influential states, the obstructers, the successful and the weak states. The visualization conveys the Co2 emission rate, GDP value and population of different states on hovering upon the elements. [Source](https://correctiv.org/en/latest-stories/climate-change/2015/12/01/un-climate-change-conference-the-factions)
 
-![](Projects\images\data-viz-1.1.png)
-![](Projects\images\data-viz-1.2.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-1.1.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-1.2.png)
 
 **Evaluation**
 
@@ -102,8 +102,8 @@ The visualization looks cluttered to understand which states are represented. Ho
 ## 3.2. Data Visualization 2
 The following is the stake of the UN climate change conference.  An effort to cut down on emissions to reduce the global mean temperature has been committed by different states and if that target is met, what could be the climate change in the future years is calculated and represented in the visualization. [Source](https://ig.ft.com/sites/climate-change-calculator/)
 
-![](Projects\images\data-viz-2.1.png)
-![](Projects\images\data-viz-2.2.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-2.1.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-2.2.png)
 
 **Evaluation**
 
@@ -131,7 +131,7 @@ The visualization is very understandable, and the global mean temperature change
 ## 3.3. Data Visualization 3
 The following visualization is a relation between fast growing cities and increasing climate risks. Almost all (95%) of cities facing extreme climate risks are in Africa or Asia according to a [report](https://www.maplecroft.com/insights/analysis/84-of-worlds-fastest-growing-cities-face-extreme-climate-change-risks/) by risk analysts.  And it's the faster-growing cities that are most at risk, including megacities like Lagos in Nigeria and Kinshasa in the Democratic Republic of Congo. Some 84 of the world's 100 fastest-growing cities face "extreme" risks from rising temperatures and extreme weather brought on by climate change.[Source](https://www.bbc.com/news/science-environment-46384067)
 
-![](Projects\images\data-viz-3.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-3.png)
 
 **Evaluation**
 
@@ -158,11 +158,11 @@ The visualization does convey that with higher growth in population has more cli
 ## 3.4. Data Visualization 4
 The following set of visualizations depicts that the observed climate change over the years 1880 to 2014. It also gives comparison of the climate change to different factors like sun, volcanoes and finally states that the greenhouse gases are the cause of it. [Source](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/)
 
-![](Projects\images\data-viz-4.1.png)
-![](Projects\images\data-viz-4.2.png)
-![](Projects\images\data-viz-4.3.png)
-![](Projects\images\data-viz-4.4.png)
-![](Projects\images\data-viz-4.5.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.1.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.2.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.3.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.4.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.5.png)
 
 **Evaluation**
 
@@ -188,7 +188,7 @@ This set of visualizations – first conveying the change in the climate and the
 ## 3.5. Data Visualization 5
 The following visualization shows global-mean temperature evolution with and without volcanic eruptions as simulated in the Bethe et al. study. [Source](https://www.climate-lab-book.ac.uk/2017/what-do-future-eruptions-mean-for-climate-projections/)
 
-![](Projects\images\data-viz-5.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-5.png)
 
 **Evaluation**
 
