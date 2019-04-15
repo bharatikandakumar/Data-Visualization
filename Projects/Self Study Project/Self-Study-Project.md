@@ -207,7 +207,7 @@ The following set of visualizations depicts that the observed climate change ove
 This set of visualizations – first conveying the change in the climate and then comparing that pattern with different factors convey the story precisely. The representation is also very easily understandable. And we can conclude that it is the greenhouse gases causing the change by just looking at the visualization. So, I think this visualization is very well analyzed and designed at the same time conveying the story on point as compared to the other visualizations discussed so far.
 
 ## 3.5. Global mean Temperature with and without Volcanic Eruptions
-The following visualization shows global-mean temperature evolution with and without volcanic eruptions as simulated in the Bethe et al. study. ( Source :[global-temperature-volcanic-eruptions](https://www.climate-lab-book.ac.uk/2017/what-do-future-eruptions-mean-for-climate-projections/) )
+The following visualization shows global-mean temperature evolution with and without volcanic eruptions as simulated in the Bethe et al. study. ( Source : [global-temperature-volcanic-eruptions](https://www.climate-lab-book.ac.uk/2017/what-do-future-eruptions-mean-for-climate-projections/) )
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-5.png)
 
