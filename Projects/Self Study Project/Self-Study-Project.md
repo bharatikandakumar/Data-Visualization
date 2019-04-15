@@ -175,7 +175,7 @@ The following visualization is a relation between fast growing cities and increa
 
 The visualization does convey that with higher growth in population has more climate risk. But the y-axis which is growth in population is not clear. Also, the heading says growth 2018 – 2035. But these years are not represented anywhere in the visualization. It also looks cluttered. It says that the circle size represents current population. If that is the case, where is the population growth prediction mentioned in the title. Though this visualization conveys the bigger picture that more the population, more vulnerable the country is for climate risks, it needs a lot of improvement to make the viewers understand details.
 
-## 3.4. What is warming the word?
+## 3.4. What is warming the world?
 The following set of visualizations depicts that the observed climate change over the years 1880 to 2014. It also gives comparison of the climate change to different factors like sun, volcanoes and finally states that the greenhouse gases are the cause of it. ( Source : [whats-warming-the-world](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/) )
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/images/data-viz-4.1.png)
@@ -232,3 +232,7 @@ The following visualization shows global-mean temperature evolution with and wit
 ### Conclusion
 
 The study here aims to convey that the while making the climate more variable, volcanic eruptions have little influence on the long-term temperature trend. But the visualization does the opposite. **It argues against that climate change is caused by human activity.** There is no representation on the chart as to what does the red and blue lines represent respectively. The volcano images are represented in red, so a viewer might assume that the red line represents the climate change during volcanic eruptions which is a directly opposite to the story they are trying to convey.
+
+#Overall Assessment and Conclusion
+
+As part of the self study project, I have created a Evaluation Framework after referring to a few resources online which is sited in  the beginning of the document. I have evaluated five different visualizations obtained from online resources against the stated evaluation framework. From my understanding, each visualization had some areas of improvement except visualization 4 which is on "What is warming the word?". It was not cluttered but at the same time conveyed in depth knowledge to the audience in understanding the relations between different factors that are potential causes for climate change and concluded that greenhouse gases are the ones causing it. 
