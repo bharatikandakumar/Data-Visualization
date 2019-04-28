@@ -70,16 +70,19 @@ In this version of the individual project , as we are trying to communicate with
 
 ### 1. Speed Violation Trend and Forecast in Chicago
 Changed the color scale ( red indicates high violations and green indicates lower number of violations)
+> I have used a line chart over a bar chart as bar chart and other types of charts seemed very cluttered
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/1.png)
 
 ### 2. Speed Violations by quarter over the years in Chicago
 Represented Q2 in a different color to highlight that the number of violations in higher in the second quarter
+> I have used a bar chart as it represents very clearly that Q2 has the highest number of violations each year
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/3.png)
 
 ### 3. Speed Violation Cameras Enforced over the years in Chicago
 Changed the color scale red representing lesser number of cameras and green representing higher number of cameras enforced.
+> As I have taken running sum of violations here, I could not do a line chart. Hence using a bar chart which shows the transition smoothly
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/8.png)
 
@@ -90,6 +93,7 @@ Color coordinated to represent we can reach greener area in speed violations (re
 
 ### 5. Speed Violations by Wards in Chicago from 2019 to date
 Changed the zip code to wards to present the improvement areas in a higher level rather than being more detailed. Rather than having the year scale from 2014 till date, I have included only the last year till date to represent the current situation and which areas needs improvement.
+> Had a map representation initially which was very cluttered and difficult to understand and make note of the areas of improvement. A bar chart here is very precise and the areas of improvement are sorted to clearly convey the message
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/10.png)
 
@@ -105,6 +109,9 @@ From the insights discussed above, we can conclude the following
 1. Continue the automated  speed violations program.
 2. Increase the number of speed violation cameras starting with the Top 10 wards that have the highest violations.
 3. Work on figuring out why the violations are higher in the second quarter and bring in enforcements to reduce that.
+
+## My Tableau Public Profile Link
+[Speed Violations Chicago Workbook Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoWorkbook/SpeedViolationsinChicagoWorkbook)
 
 ## References
 1. [Speed-Camera-Violations-Dataset-Reference](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
