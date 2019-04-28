@@ -28,7 +28,7 @@ A pattern where red-light violations and speed camera violations are related cou
 
 After merging the data based and plotting the trend, the following was the obtained visualization
 
-![](https://github.com/bharatikandakumar/Data-Visualization/tree/master/Projects/Individual%20Project/images/2.png)
+![](/images/2.png)
 
 I did not find a pattern between them. The speed violations don’t seem to be dependent on the red-light violations.
 Hence, I disregarded the red-light violations data.
