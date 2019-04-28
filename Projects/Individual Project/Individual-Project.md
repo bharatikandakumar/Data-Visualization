@@ -107,8 +107,8 @@ From the insights discussed above, we can conclude the following
 3. Work on figuring out why the violations are higher in the second quarter and bring in enforcements to reduce that.
 
 ## References
-1. ( Source : [Speed-Camera-Violations-Dataset-Reference] (https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4))
+1. ( Source : [Speed-Camera-Violations-Dataset-Reference](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4))
 
-2. ( Source : [Red-Light-Violations-Dataset-Reference] (https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37))
+2. ( Source : [Red-Light-Violations-Dataset-Reference](https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37))
 
-3. ( Source : [Speed-Camera-Locations-Dataset-Reference] (https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h))
+3. ( Source : [Speed-Camera-Locations-Dataset-Reference](https://data.cityofchicago.org/Transportation/Speed-Camera-Locations/4i42-qv3h))
