@@ -5,7 +5,7 @@ I started with working on the visualizations created during data exploration pha
 
 As it is a major insight to argue that we should continue the automated speed enforcement program, I retained that visualization and represented a forecast of how the trend could be in the following year.
 
-![](https://github.com/bharatikandakumar/Data-Visualization/tree/master/Projects/Individual%20Project/images/1.png)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/1.png)
 
 > Insight
 The number of violations continues to decrease over the years. We can notice that the forecast is that the speed violations will continue to decrease.
