@@ -68,27 +68,27 @@ In this version of the individual project , as we are trying to communicate with
 
 ## The finalized visualizations after these observations are as follows
 
-### Speed Violation Trend and Forecast in Chicago
+### 1. Speed Violation Trend and Forecast in Chicago
 Changed the color scale ( red indicates high violations and green indicates lower number of violations)
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/1.png)
 
-### Speed Violations by quarter over the years in Chicago
+### 2. Speed Violations by quarter over the years in Chicago
 Represented Q2 in a different color to highlight that the number of violations in higher in the second quarter
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/3.png)
 
-### Speed Violation Cameras Enforced over the years in Chicago
+### 3. Speed Violation Cameras Enforced over the years in Chicago
 Changed the color scale red representing lesser number of cameras and green representing higher number of cameras enforced.
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/8.png)
 
-### Speed Violation decreases with the increase in speed violation cameras enforced
+### 4. Speed Violation decreases with the increase in speed violation cameras enforced
 Color coordinated to represent we can reach greener area in speed violations (reduce violations) by reaching greener area in the speed violation cameras enforced(increase the number of speed violation cameras).
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/9.png)
 
-### Speed Violations by Wards in Chicago from 2019 to date
+### 5. Speed Violations by Wards in Chicago from 2019 to date
 Changed the zip code to wards to present the improvement areas in a higher level rather than being more detailed. Rather than having the year scale from 2014 till date, I have included only the last year till date to represent the current situation and which areas needs improvement.
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/10.png)
