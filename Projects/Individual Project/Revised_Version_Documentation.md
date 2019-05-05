@@ -156,7 +156,7 @@ From the insights discussed above, we can conclude the following
 ## My Tableau Public Profile Links for First and Revised Version
 1. [Speed Violations Chicago First Version Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoWorkbook/SpeedViolationsinChicagoWorkbook)
 
-2. [Speed Violations Chicago Revised Version Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoRevisedVersion/SpeedViolationsinChicago)
+2. [Speed Violations Chicago Revised Version Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoRevisedVersion/SpeedVioaltionsinChicago)
 
 ## References
 1. [Speed-Camera-Violations-Dataset-Reference](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
