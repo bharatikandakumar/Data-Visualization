@@ -103,7 +103,7 @@ Changed the zip code to wards to present the improvement areas in a higher level
 ### 1. Speed Violation Trend and Forecast in Chicago
 With the first version of the visualization, I had trouble bringing in the trend line to showcase the overall trend down in the number of speed violations in Chicago. To represent it better, removed the average line for each year, added additional x-axis for year to clearly distinguish data between years, greyed out the background grid lines and included a trend line which clearly shows that the total number of violations in Chicago had been continuously declining
 
-![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/final1.PNG)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/final1.PNG-)
 
 ### 2. Speed Violations by quarter over the years in Chicago
 The  colors (orange and grey) as shown in the previous version did not sync up with the rest of the charts. To make sure the representations are in sync, changed the color to red and green. All Q2 of each year are highlighted in red to show that there are more violations in the second quarter. Also, a percentage of total for each quarter respective to each year is denoted to emphasis on the point that Q2 violations are higher.
@@ -121,7 +121,12 @@ After color coordinating these two comparable insights, I have changed the bar c
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/final4.PNG)
 
 ### 5. Speed Violations by Wards in Chicago from 2019 to date
-Changed the colors from Red/Orange to Red/Green to color coordinate to the rest of the charts. From a fixed top 10 speed violation wards representation, changed it dynamic to highlight top N (1 - 50 as there are only 50 wards) problematic wards to give the flexibility to concentrate on areas depending on the budget. We can use the slider to highlight the top N violation areas of our choice. Added an additional chart which represents the streets that are part of the top N Speed Violation wards with the street with highest number  of violations represented in red and lowest in green.
+Changed the colors from Red/Orange to Red/Green to color coordinate to the rest of the charts. From a fixed top 10 speed violation wards representation, changed it dynamic to highlight top N (1 - 50 as there are only 50 wards) problematic wards to give the flexibility to concentrate on areas depending on the budget.
+
+
+>> Problem Faced - The filter to display just the data from 2018 to date was successful in the first version. Top N filter took all data from 2014 to date into account. To reflect the year filter on Top N,  I created a duplicate of Speed Violation Measure and implemented a filter on the copy of it. Used that copy to make this visualization and fixed the issue.
+
+We can use the slider to highlight the top N violation areas of our choice. Added an additional chart which represents the streets that are part of the top N Speed Violation wards with the street with highest number  of violations represented in red and lowest in green.
 
 ![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/final5.PNG)
 
@@ -148,8 +153,10 @@ From the insights discussed above, we can conclude the following
 
 4. Work on figuring out why the violations are higher in the second quarter and bring in enforcements to reduce that.
 
-## My Tableau Public Profile Link
-[Speed Violations Chicago Workbook Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoWorkbook/SpeedViolationsinChicagoWorkbook)
+## My Tableau Public Profile Links for First and Revised Version
+1. [Speed Violations Chicago First Version Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoWorkbook/SpeedViolationsinChicagoWorkbook)
+
+2. [Speed Violations Chicago Revised Version Tableau Public](https://public.tableau.com/profile/bharati.pradayini.kandakumar#!/vizhome/SpeedViolationsinChicagoRevisedVersion/SpeedViolationsinChicago)
 
 ## References
 1. [Speed-Camera-Violations-Dataset-Reference](https://data.cityofchicago.org/Transportation/Speed-Camera-Violations/hhkd-xvj4)
