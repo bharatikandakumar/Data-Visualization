@@ -103,7 +103,7 @@ Changed the zip code to wards to present the improvement areas in a higher level
 ### 1. Speed Violation Trend and Forecast in Chicago
 With the first version of the visualization, I had trouble bringing in the trend line to showcase the overall trend down in the number of speed violations in Chicago. To represent it better, removed the average line for each year, added additional x-axis for year to clearly distinguish data between years, greyed out the background grid lines and included a trend line which clearly shows that the total number of violations in Chicago had been continuously declining
 
-![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/final1.PNG-)
+![](https://github.com/bharatikandakumar/Data-Visualization/blob/master/Projects/Individual%20Project/images/final1.PNG)
 
 ### 2. Speed Violations by quarter over the years in Chicago
 The  colors (orange and grey) as shown in the previous version did not sync up with the rest of the charts. To make sure the representations are in sync, changed the color to red and green. All Q2 of each year are highlighted in red to show that there are more violations in the second quarter. Also, a percentage of total for each quarter respective to each year is denoted to emphasis on the point that Q2 violations are higher.
